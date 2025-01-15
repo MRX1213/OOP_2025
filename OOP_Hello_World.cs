@@ -2,11 +2,22 @@ using System;
 
 namespace HelloWorldApp
 {
-    class Program
+    public class Car
     {
-        static void Main(string[] args)
+        string make;
+        string model;
+        int year;
+        string VIN;
+        string interiorColor;
+        string exteriorColor;
+        public Car(string make, string model, int year, string VIN, string interiorColor, string exteriorColor)
         {
-            Console.WriteLine("Hello, World!");
+            this.make = make;
+            this.model = model;
+            this.year = year;
+            this.VIN = VIN;
+            this.interiorColor = interiorColor;
+            this.exteriorColor = exteriorColor;
         }
     }
 }
